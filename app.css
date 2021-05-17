@@ -1,0 +1,54 @@
+* {
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+        }
+        html,
+            body{
+                height: 100%;
+                background-image: url("Lingg2.png");
+                background-size: cover;
+            }
+            #web{
+                display: flex;
+                /* flex-direction: row-reverse; */
+                justify-content: center; 
+                height: 400px;
+                width: 100%;
+            }
+            #question{ /*flex-direction: row; theo chiều ngang */
+                display: flex;
+                justify-content: center;
+                height: 400px;
+                width: 59%;
+                margin-left: 20%;
+                background-image: url("Lingg.png");
+                background-size: cover;
+                color: #070f07;
+                border-radius: 10px 10px 10px 10px;
+                
+            }
+            #anw1 {
+                display: flex;
+                background-color: rgb(53, 201, 53);
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+                width: 20%;
+                color: #ffffff;
+                border-radius: 10px;
+                margin-right: 10%;
+            }
+            #anw2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #ffffff;
+                background-color: rgb(177, 44, 44);
+                border-radius: 10px;
+                height: 50%;
+                width: 20%;
+                margin-left: 9%;
+            }
+            .reverse{
+                flex-direction: row-reverse;
+            }
